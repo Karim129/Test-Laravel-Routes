@@ -15,4 +15,8 @@ class UserController extends Controller
 
         return view('users.show', compact('user'));
     }
+
+    public function login(){
+        redirect('login');
+    }
 }
